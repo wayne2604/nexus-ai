@@ -1,0 +1,12 @@
+{
+  "name": "Nexus AI Booking Agent",
+  "nodes": [],
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}
