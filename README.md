@@ -6,7 +6,7 @@ An autonomous, AI-driven appointment booking workflow built on n8n. It leverages
 
 ---
 
-###  Stack
+### 📦 Stack
 - n8n (Workflow Automation)
 - LangChain (Agent & Memory Orchestration)
 - Gemini 2.5 Flash (Google AI)
@@ -14,7 +14,7 @@ An autonomous, AI-driven appointment booking workflow built on n8n. It leverages
 
 ---
 
-###  Quick start
+### ✨ Quick start
 ```bash
 # Clone the repository
 git clone https://github.com/wayne2604/nexus-ai.git
@@ -26,7 +26,7 @@ Import the `nexus-ai.json` workflow file into your n8n instance and configure yo
 
 ---
 
-###  Features
+### ⚙️ Features
 - **Secure Auth / Chat Integration**  Engage with users naturally using specialized nodes to capture booking intent and details.
 - **Schedule Management**  Create, view, and delete daily calendar slots or appointments automatically.
 - **Search Logic**  Efficient query logic to check existing calendar schedules before booking.
@@ -34,7 +34,7 @@ Import the `nexus-ai.json` workflow file into your n8n instance and configure yo
 
 ---
 
-###  How it works
+### 🛠️ How it works
 The system follows a modular architecture designed for high reliability and ease of use:
 - **Database / API Connectivity**: Integrates directly with the Google Calendar API using secure OAuth credentials to query slot availability and book events.
 - **Decoupled Logic**: Separate routing of user chats, backend parsing via LLMs, and webhook executions for better scalability.
@@ -42,7 +42,7 @@ The system follows a modular architecture designed for high reliability and ease
 
 ---
 
-###  Project structure
+### 📁 Project structure
 ```text
 /
  workflows/              # Core workflow files for n8n
@@ -53,5 +53,5 @@ The system follows a modular architecture designed for high reliability and ease
 
 ---
 
-###  Author
+### 👤 Author
 **Wayne**  [github.com/wayne2604](https://github.com/wayne2604)
